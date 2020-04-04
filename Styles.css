@@ -1,0 +1,90 @@
+body{
+background: url(https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  z-index: -1;
+}
+
+.your-text{
+    color: white;
+    position: absolute;
+    top: 69%;
+    left: 45%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.dealer-text{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 3%;
+    margin-top: 3%;
+}
+
+.your-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+}
+
+.dealer-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+
+.btn-group{
+    margin-left: 40%;
+    margin-top: 1%;
+    
+}
+
+#hit{
+    display: none;
+}
+
+#stand{
+    display: none;
+}
+
+.added{
+    margin-right: 1px;
+    width: 97px;
+    height: 150px;
+    color: black;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+    /* box-shadow: 5px 5px 2px black; */
+}
+
+.down{
+    margin-right: 1px;
+    width: 97px;
+    height: 150px;
+    color: black;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+    /* box-shadow: 5px 5px 2px black; */
+}

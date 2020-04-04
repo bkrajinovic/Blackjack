@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <img src="https://www.clowerweb.com/cors/blackjack/table.png" alt="">
+    <div class="box">
+
+        <p class="your-text">You: <span id="playerCounter"> </span></p>
+        <p class="dealer-text">Dealer: <span id="dealerCounter"> </span></p>
+
+
+
+        <div class="your-box">
+
+
+        </div>
+
+        <div class="dealer-box">
+            
+
+        </div>
+
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button id="hit" type="button" class="btn btn-primary">Hit</button>
+        <button id="stand" type="button" class="btn btn-secondary">Stand</button>
+        <button id="start" type="button" class="btn btn-success">Start</button>
+        <button id="clear" type="button" class="btn btn-danger">Clear</button>
+
+      </div>
+      <audio id="audio" src="swish.mp3"></audio>
+    <script src="Script.js"></script>
+</body>
+</html>
